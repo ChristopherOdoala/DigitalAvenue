@@ -76,6 +76,7 @@ namespace SalesManagementApp
             // configure DI for application services
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ISalesServices, SalesService>();
+            services.AddScoped<ICountryStateCityService, CountryStateCityService>();
         }
     }
 }
