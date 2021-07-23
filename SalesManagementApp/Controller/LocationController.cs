@@ -11,7 +11,7 @@ namespace SalesManagementApp.Controller
 {
     [Authorize]
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]/[action]")]
     public class LocationController : BaseController
     {
         private readonly ICountryStateCityService _countryStateCityService;
